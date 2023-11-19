@@ -1,0 +1,26 @@
+-------------- PROGRAMACION 3 --------------
+
+Corrección de prácticas de programación.
+
+**** Comprobación de la documentación en formato Javadoc ****
+
+Este corrector utiliza la herramienta 'checkstyle' para evaluar la
+documentación en formato 'javadoc'.
+
+*** Uso del corrector
+
+1. Descomprime el corrector
+
+	$ tar xzvf checkJavadoc.tgz
+
+2. Ejecuta el corrector:
+
+	$ ./corrige.sh tupractica.tgz
+
+Ejemplo de salida con dos errores:
+
+Comenzando auditoría...
+[WARN] /home/prog3/checkJavadoc/src/es/ua/dlsi/prog3/p2/model/Car.java:10:1: Falta el comentario Javadoc. [MissingJavadocType]
+[WARN] /home/prog3/checkJavadoc/src/es/ua/dlsi/prog3/p2/model/Car.java:22:9: Falta el comentario Javadoc. [MissingJavadocMethod]
+Auditoría concluida.
+
